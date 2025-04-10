@@ -1,2 +1,2 @@
 # Tesla
-Tesla Stock Price Prediction Models
+Time-Series Forecasting Models for TSLA stock prediction
