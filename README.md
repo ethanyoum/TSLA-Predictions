@@ -1,6 +1,6 @@
 ## Time-Series Forecasting Models for TSLA stock prediction
 
-#Introduction
+# Introduction
 
 Tesla has been one of the most influential and closely watched companies in the stock market, experiencing significant surges in value driven by key political, economic, and technological factors. Notably, Tesla’s stock saw substantial growth following the 2024 U.S. presidential election, where Donald Trump confirmed the victory over Kamala Harris. Investor optimism surged by nearly 15%, adding approximately $20 billion to Elon Musk’s net worth, as markets anticipated potential policy shifts favoring deregulation and changes to electric vehicle (EV) incentives.
 
