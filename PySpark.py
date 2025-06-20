@@ -45,7 +45,7 @@ print(f"Mean Return: {mean_return:.5f}")
 print(f"Volatility: {volatility:.5f}")
 
 
-## Optimize Alpha Signal and Profit
+## Optimize Alpha Signal and Return
 # Start Spark session
 spark = SparkSession.builder.appName("TSLA Alpha Optimization").getOrCreate()
 
