@@ -5,9 +5,8 @@ import torch
 from five_day_return import GRUWithAttentionClassifier
 import os
 
-# --- Model Loading ---
-# These parameters should match your training setup
-INPUT_SIZE = 15 # IMPORTANT: Adjust this to the number of features your model expects
+## Model Loading
+INPUT_SIZE = 15
 HIDDEN_SIZE = 128
 NUM_LAYERS = 3
 DROPOUT = 0.05
@@ -24,7 +23,7 @@ model = GRUWithAttentionClassifier(
 model.load_state_dict(torch.load('tsla_attention.pt', map_location=torch.device('cpu')))
 model.eval()
 
-# --- Kafka Consumer ---
+## Kafka Consumer
 consumer = KafkaConsumer('features_topic',
                          bootstrap_servers='kafka:9092',
                          value_deserializer=lambda m: json.loads(m.decode('utf-8')))
@@ -38,9 +37,8 @@ for msg in consumer:
     features = msg.value
     df = pd.DataFrame([features])
     
-    # --- Inference ---
+    ## Inference
     # 1. Prepare data for the model (assumes all columns except target are features)
-    # You might need to adjust the feature selection and preprocessing
     feature_columns = [col for col in df.columns if col not in ['target', 'timestamp']] # Example
     input_data = df[feature_columns].values
     
@@ -55,7 +53,7 @@ for msg in consumer:
     result = df.copy()
     result['prediction'] = prediction
 
-    # Save to CSV (append mode)
+    # Save to CSV
     result.to_csv(output_file, mode='a', header=not header_written, index=False)
     header_written = True
 
