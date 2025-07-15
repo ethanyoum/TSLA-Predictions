@@ -44,3 +44,15 @@ To gain a deeper insights, I performed an Exploratory Data Analysis using the fi
 <img width="969" height="517" alt="Screenshot 2025-07-15 at 1 25 24 AM" src="https://github.com/user-attachments/assets/be4e45e6-a979-48a0-b431-f42b3edbdd80" />
 
 The shown plot is demonstrating Buy & Sell signals based on RSI and two types of Moving Averages, which are respectively fast and slow. The fast and slow moving averages provide insights into price momentum. The fast moving average reacts quickly to short-term price changes. whereas the slow moving average smooths fluctuations for long-term price changes. Buy and sell signals highlight optimal trading opportunities. Buy signals (green triangles) appear when the fast moving average crosses above the slow one, indicating upward momentum, while sell signals (red triangles) occur when it crosses below, showing a signal of the potential decline.
+
+Other type of a methodology for a more in-depth analysis is RSI indicator with Buy & Sell thresholds.
+
+<img width="743" height="402" alt="Screenshot 2025-07-15 at 1 45 57 PM" src="https://github.com/user-attachments/assets/fc235d15-c179-4fef-82ab-39046ac46c6b" />
+
+In the shown plot, the red zone (above 70) indicates an overbought market where selling pressure may increase, while the green zone (below 30) highlights an oversold market where buying opportunities arise. The plot suggests that TSLA may have been overbought in a frequent manner, making it susceptible to price pullbacks.
+
+In the conclusion of the plots above, TSLA has experienced high volatility with sharp price swings following overbought signals. While Tesla’s long-term trajectory remains in an upward way, caution is advised for short-term traders due to frequent reversals as shown, whereas long-term investors may have benefited from buying during a lot of pullbacks.
+
+<img width="746" height="368" alt="Screenshot 2025-07-15 at 1 46 44 PM" src="https://github.com/user-attachments/assets/73bc2073-90a7-4376-bfd3-2e7b281e63f6" />
+
+The Price and RSI Combined Plot further illustrates this trend by showing how Tesla’s stock price movements align with RSI fluctuations. When RSI enters the overbought zone (above 70), price corrections often follow, while dips into the oversold zone (below 30) have historically led to rebounds. This pattern reinforces the importance of momentum indicators in identifying potential entry and exit points, highlighting the risk of short-term reversals and the opportunities presented by market pullbacks for long-term investors.
