@@ -1,3 +1,4 @@
+# Example of Sentiment Analysis
 !pip install yfinance vaderSentiment newsapi-python
 
 # Import necessary libraries
