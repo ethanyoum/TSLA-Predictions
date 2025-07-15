@@ -10,7 +10,7 @@ This optimism was fueled by expectations of reduced regulatory oversight and pot
 
 This report takes a data-driven approach to analyzing Tesla’s stock performance, financial indicators, and market trends. Additionally, it introduces predictive modeling techniques to assess potential future price movements based on historical data and key financial metrics, providing insights into Tesla’s investment risks and opportunities.
 
-# Data Collection
+## Data Collection
 Using Python’s Yahoo finance library, I gathered historical stock data spanning from December 14th, 2017, to December 14th, 2024, to assess Tesla’s financial health and performance over time. The dataset includes:
 
 Stock Prices: Open, High, Low, Close, and Adjusted Close Prices.
@@ -19,7 +19,7 @@ Time Frame: Data covering recent 7 years for trend analysis.
 
 <img width="697" height="505" alt="Screenshot 2025-07-15 at 1 21 58 AM" src="https://github.com/user-attachments/assets/03708d2c-0831-4bcc-a0bb-fc7571e5c2d5" />
 
-# Financial Metrics / Trend Metrics Breakdown
+## Financial Metrics / Trend Metrics Breakdown
 Brief explanation about the metrics I used is:
 
 Relative Strength Index (RSI): Assesses the speed and magnitude of the recent price.
@@ -30,7 +30,7 @@ P/B Ratio: Evaluates stock price relative to book value.
 
 Annualized Volatility: Measures the degree of variation of the return over a given period.
 
-# Quantitative Analysis About TSLA
+## Quantitative Analysis About TSLA
 <img width="680" height="58" alt="Screenshot 2025-07-15 at 1 23 39 AM" src="https://github.com/user-attachments/assets/808c3e69-cdbe-45ae-bb82-b5b2e82d4bff" />
 
 To effectively analyze TSLA, I focused on key financial indicators, including the Relative Strength Index (RSI), Price-to-Earnings (P/E) Ratio, Price-to-Book (P/B) Ratio, and Annualized Volatility, to assess the stock’s valuation and market behavior.
