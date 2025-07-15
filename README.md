@@ -23,8 +23,11 @@ Time Frame: Data covering recent 7 years for trend analysis.
 Brief explanation about the metrics I used is:
 
 Relative Strength Index (RSI): Assesses the speed and magnitude of the recent price.
+
 P/E Ratio: Measures investor confidence and stock valuation.
+
 P/B Ratio: Evaluates stock price relative to book value.
+
 Annualized Volatility: Measures the degree of variation of the return over a given period.
 
 # Quantitative Analysis About TSLA
