@@ -11,7 +11,7 @@ from datetime import datetime, timedelta
 # Step 1 - Get stock data
 ticker = "TSLA"
 end_date = datetime.today()
-start_date = end_date - timedelta(days=30)
+start_date = end_date - timedelta(days = 30)
 stock_df = yf.download(ticker, start=start_date.strftime('%Y-%m-%d'), 
                        end=end_date.strftime('%Y-%m-%d'))
 
@@ -19,14 +19,14 @@ stock_df.head(5)
 
 # Step 2 - News data
 ## https://newsapi.org
-newsapi = NewsApiClient(api_key='My API Secret Key')
+newsapi = NewsApiClient(api_key = 'My API Secret Key')
 
-all_articles = newsapi.get_everything(q='Tesla',
-                                      from_param=start_date.strftime('%Y-%m-%d'),
-                                      to=end_date.strftime('%Y-%m-%d'),
-                                      language='en',
-                                      sort_by='relevancy',
-                                      page_size=100)
+all_articles = newsapi.get_everything(q = 'Tesla',
+                                      from_param = start_date.strftime('%Y-%m-%d'),
+                                      to = end_date.strftime('%Y-%m-%d'),
+                                      language = 'en',
+                                      sort_by = 'relevancy',
+                                      page_size = 100)
 
 texts, dates = [], []
 
@@ -54,7 +54,7 @@ stock_df.head(5)
 
 # Step 4 - Merge with stock data
 stock_df.index = pd.to_datetime(stock_df.index)
-merged_df = stock_df.merge(daily_sentiment, left_index=True, 
-                           right_index=True, how="left")
+merged_df = stock_df.merge(daily_sentiment, left_index = True, 
+                           right_index = True, how = "left")
 
 merged_df.head(5)
