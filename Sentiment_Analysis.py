@@ -2,10 +2,8 @@
 !pip install yfinance vaderSentiment newsapi-python
 
 # Import necessary libraries
-import yfinance as yf
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from newsapi import NewsApiClient
-import pandas as pd
 from datetime import datetime, timedelta
 
 # Step 1 - Get stock data for last 30 days
