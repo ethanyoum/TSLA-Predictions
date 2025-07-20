@@ -8,7 +8,7 @@ from newsapi import NewsApiClient
 import pandas as pd
 from datetime import datetime, timedelta
 
-# Step 1 - Get stock data
+# Step 1 - Get stock data for last 30 days
 ticker = "TSLA"
 end_date = datetime.today()
 start_date = end_date - timedelta(days = 30)
