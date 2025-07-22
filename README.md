@@ -41,7 +41,7 @@ Moreover, the Annualized Volatility of 0.63 highlights the stock’s inherent pr
 
 To gain a deeper insights, I performed an Exploratory Data Analysis using the financial & trend metrics mentioned above.
 
-<img width="969" height="517" alt="Screenshot 2025-07-15 at 1 25 24 AM" src="https://github.com/user-attachments/assets/be4e45e6-a979-48a0-b431-f42b3edbdd80" />
+<img width="743" height="402" alt="Screenshot 2025-07-15 at 1 25 24 AM" src="https://github.com/user-attachments/assets/be4e45e6-a979-48a0-b431-f42b3edbdd80" />
 
 The shown plot is demonstrating Buy & Sell signals based on RSI and two types of Moving Averages, which are respectively fast and slow. The fast and slow moving averages provide insights into price momentum. The fast moving average reacts quickly to short-term price changes. whereas the slow moving average smooths fluctuations for long-term price changes. Buy and sell signals highlight optimal trading opportunities. Buy signals (green triangles) appear when the fast moving average crosses above the slow one, indicating upward momentum, while sell signals (red triangles) occur when it crosses below, showing a signal of the potential decline.
 
